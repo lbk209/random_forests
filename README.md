@@ -2,6 +2,8 @@
 
 This repo elaborates [Random Forests - A Long-Short Strategy for Japanese Stocks](https://github.com/stefan-jansen/machine-learning-for-trading/tree/master/11_decision_trees_random_forests) in Machine Learning for Algorithmic Trading by Stefan Jansen. It builds a long-short trading strategy that uses a Random Forest ensemble to generate profitable signals for large-cap Japanese equities over the last three years. It will sources and prepares the stock price data, tunes the hyperparameters of a Random Forest model, and backtests trading rules based on the models’ signals.
 
+- The notebook [create_stooq_data](00_create_stooq_data.ipynb) downloads historical prices for Japanese stocks from STOOQ.
+
 #### [create_stooq_data](00_create_stooq_data.ipynb)
 
 #### [japanese_equity_features](01_japanese_equity_features.ipynb)
