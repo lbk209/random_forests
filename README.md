@@ -12,6 +12,6 @@ These notebooks elaborate the code example [Random Forests - A Long-Short Strate
 
 - [backtesting_with_zipline](04_backtesting_with_zipline.ipynb) evaluates the model predictions using a long-short strategy simulated using Zipline. The notebook contains the procedure how to obtain the data and create a custom Zipline bundle. The scripts for custom bundle in zipline folder are modified from original ones. The notebook uses [zipline](https://github.com/stefan-jansen/zipline-reloaded) package by Stefan Jansen. A few lines of pyfolio codes are modified to address some errors. The round_trips option of create_full_tear_sheet dose not work.
 
-- The last notebook [trading](05_trading.ipynb) basically combines the two notebooks [random_forest_return_signals](02_random_forest_return_signals.ipynb) and [backtesting_with_zipline](04_backtesting_with_zipline.ipynb), making return prediction and long-short amount for new date by using the LightGBM random forest model and Zipline.
+- The last notebook [trading](05_trading.ipynb) basically combines the two notebooks [random_forest_return_signals](02_random_forest_return_signals.ipynb) and [backtesting_with_zipline](04_backtesting_with_zipline.ipynb), making return prediction and determining long-short amount for new date by using the LightGBM random forest model and Zipline.
 
 
